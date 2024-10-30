@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Игр1 Победы: 0 | Игр2 Победы: 0 | Ничьи: 0"
+        />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvStats"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/green"
+        android:text="Играть вдвоём"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnStartGameWithBot"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnStartGame"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/green"
+        android:text="Играть с ботом"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnReStart"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnStartGameWithBot"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/green"
+        android:text="Сбросить статистику"
+        android:textSize="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageBtn"
+
+        style="@style/MyImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/muk_zhilfa"
+        />
+
+</RelativeLayout>
